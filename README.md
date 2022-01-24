@@ -12,15 +12,12 @@
 
 In building this dashboard, we'll create individual pages for each plot and a means by which we can navigate between them. These pages will contain the visualizations and their corresponding explanations. We'll also have a landing page, a page where we can see a comparison of all of the plots, and another page where we can view the data used to build them.
 
-### Website Requirements
+### Website details 
 
 For reference, see the ["Screenshots" section](#screenshots) below.
 
-The website must consist of 7 pages total, including:
-
 * A [landing page](#landing-page) containing:
-  * An explanation of the project.
-  * Links to each visualizations page. There should be a sidebar containing preview images of each plot, and clicking an image should take the user to that visualization.
+  * Here i created a dashboard with individual pages for each plot and tabs to navigate between them. Each page contains visualizations nad corresponding explanations. The landing page is where we can see the comparison of all the plots and a page of the data aquired to build them,
 * Four [visualization pages](#visualization-pages), each with:
   * A descriptive title and heading tag.
   * The plot/visualization itself for the selected comparison.
