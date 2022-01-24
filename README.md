@@ -10,7 +10,6 @@
 ## Latitude - Latitude Analysis Dashboard
 [weather data](Resources/cities.csv).
 
-In building this dashboard, we'll create individual pages for each plot and a means by which we can navigate between them. These pages will contain the visualizations and their corresponding explanations. We'll also have a landing page, a page where we can see a comparison of all of the plots, and another page where we can view the data used to build them.
 
 ### Website details 
 
@@ -31,35 +30,7 @@ For reference, see the ["Screenshots" section](#screenshots) below.
     * The table must be a bootstrap table component. [Hint](https://getbootstrap.com/docs/4.3/content/tables/#responsive-tables)
     * The data must come from exporting the `.csv` file as HTML, or converting it to HTML. Try using a tool you already know, pandas. Pandas has a nifty method approprately called `to_html` that allows you to generate a HTML table from a pandas dataframe. See the documentation [here](https://pandas.pydata.org/pandas-docs/version/0.17.0/generated/pandas.DataFrame.to_html.html)
 
-The website must, at the top of every page, have a navigation menu that:
 
-* Has the name of the site on the left of the nav which allows users to return to the landing page from any page.
-* Contains a dropdown menu on the right of the navbar named "Plots" that provides a link to each individual visualization page.
-* Provides two more text links on the right: "Comparisons," which links to the comparisons page, and "Data," which links to the data page.
-* Is responsive (using media queries). The nav must have similar behavior as the screenshots ["Navigation Menu" section](#navigation-menu) (notice the background color change).
-
-Finally, the website must be deployed to GitHub pages.
-
-When finished, submit to BootcampSpot the links to 1) the deployed app and 2) the GitHub repository.
-
-Ensure your repository has regular commits (i.e. 20+ commits) and a thorough README.md file
-
-### Considerations
-
-* You may use the [weather data](Resources/cities.csv) or choose another dataset. Alternatively, you may use the included [cities dataset](Resources/cities.csv) and pull the images from the [assets folder](Resources/assets).
-* You must use Bootstrap. This includes using the Bootstrap `navbar` component for the header on every page, the bootstrap table component for the data page, and the Bootstrap grid for responsiveness on the comparison page.
-* You must deploy your website to GitHub pages, with the website working on a live, publicly accessible URL as a result.
-* Be sure to use a CSS media query for the navigation menu.
-* Be sure your website works at all window widths/sizes.
-* Feel free to take some liberty in the visual aspects, but keep the core functionality the same.
-
-### Bonuses
-
-* Use a different dataset! The requirements above still hold, but make it your own.
-* Use a Bootstrap theme to customize your website. You may use a tool like [Bootswatch](https://bootswatch.com/). Make it look snazzy, give it some attitude. If using this, be sure you also meet all of the requirements listed above.
-* Add extra visualizations! The more comparisons the better, right?
-* Use meaningful glyphicons next to links in the header.
-* Have visualization navigation on every visualizations page with an active state. See the screenshots below.
 
 ### Screenshots
 
@@ -67,9 +38,11 @@ This section contains screenshots of each page that must be built, at varying sc
 
 #### <a id="landing-page"></a>Landing page
 
-Large screen:
+Large screen:<img width="472" alt="08-Media-Inspect-After" src="https://user-images.githubusercontent.com/33403205/150706003-d5b75c86-cc0d-415b-8098-3c8a0894f63f.png">
 
-![Landing page large screen](Images/landingResize.png)
+
+![Landing page large scre<img width="1185" alt="07-Media-Inspect-Before" src="https://user-images.githubusercontent.com/33403205/150706015-9b4dee37-b64b-4478-98fe-331b7f35b39d.png">
+en](Images/landingResize.png)
 
 Small screen:
 
@@ -92,8 +65,10 @@ Large screen:
 
 ![data page large screen](Images/data-lg.png)
 
+![Screen Shot 2022-01-23 at 7 02 51 PM](https://user-images.githubusercontent.com/33403205/150706052-14363f84-eccf-4fac-be4d-b6aec28536e5.png)
 
 Small screen:
+![citywindspeed](https://user-images.githubusercontent.com/33403205/150706086-62db3196-e745-450b-9cb1-b25041f9f4e5.png)
 
 ![data page small screen](Images/data-sm.png)
 
@@ -102,22 +77,27 @@ Small screen:
 You'll build four of these, one for each visualization. Here's an example of one:
 
 Large screen:
+<img width="1048" alt="06-Devtools" src="https://user-images.githubusercontent.com/33403205/150706060-47aba9ae-192b-4af0-8a0c-82b89389ea11.png">
 
 ![visualize page large screen](Images/visualize-lg.png)
 
 Small screen:
+![citycloudiness-3](https://user-images.githubusercontent.com/33403205/150706064-6147ebad-c0c2-44d2-806c-72f5b21bd41d.png)
 
 ![visualize page small screen](Images/visualize-sm.png)
 
 #### <a id="navigation-menu"></a>Navigation menu
+![citylatitude](https://user-images.githubusercontent.com/33403205/150706069-4d69c9f3-31c1-4826-b1c7-92d42d46c94f.png)
 
 Large screen:
 ![nav menu large screen](Images/nav-lg.png)
 
-Small screen:
+Small screen:![cityhumidity](https://user-images.githubusercontent.com/33403205/150706075-0bb607e8-ce17-4e8d-8133-8492bcb5cd7f.png)
+
 ![nav menu small screen](Images/nav-sm.png)
 
-- - -
+- - -![citytemperature](https://user-images.githubusercontent.com/33403205/150706079-b558b3ef-a156-4bea-9a87-e196a32c02a1.png)
+
 
 ## References
 
