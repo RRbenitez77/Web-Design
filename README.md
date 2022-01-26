@@ -29,9 +29,6 @@ For reference, see the ["Screenshots" section](#screenshots) below.
    
 
 ### Screenshots
-
-This section contains screenshots of each page that must be built, at varying screen widths. These are a guide; you can meet the requirements without having the pages look exactly like the below images.
-
 #### <a id="landing-page"></a>Landing page
 
 Large screen:<img width="472" alt="08-Media-Inspect-After" src="https://user-images.githubusercontent.com/33403205/150706003-d5b75c86-cc0d-415b-8098-3c8a0894f63f.png">
